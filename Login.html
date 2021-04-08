@@ -1,0 +1,26 @@
+<html>
+    <head>
+        <title>School Hive :: Room List :: School Communication</title>
+        <link rel="stylesheet" href="Styling.css">
+        <script src="Log In.js"></script>
+    </head>
+    <body class="bg-image3">
+        <!--Navbar-->
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="Home.html">Home</a>
+            <a href="Signup.html">Sign Up</a>
+        </div>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+        <!--Content-->
+        <center>
+            <h1>Log In To School Hive!!</h1>
+            <div class="login_div">
+                <span class="sign_up_span"><h4>Username : <input id="username_input" type="text" placeholder="Enter Username"></h4></span>
+                <span class="sign_up_span"><h4>Roll Number: <input id="roll_number_input" type="text" placeholder="Enter Roll Number"></h4></span>
+                <h4 id="hidden_label">PLEASE FILL OUT ALL THE FIELDS!!</h4>
+                <button id="sign_up_btn" type="submit" onclick="logIn()">Log In</button>
+            </div>
+        </center>
+    </body>
+</html>

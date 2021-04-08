@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <title>School Hive :: Home :: School Communication</title>
+        <link rel="stylesheet" href="Styling.css">
+        <script src="Home.js"></script>
+    </head>
+    <body class="bg-image1">
+        <!--Navbar-->
+        <div id="mySidepanel" class="sidepanel">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="Home.html">Home</a>
+            <a href="Signup.html">Sign Up</a>
+        </div>
+        <button class="openbtn" onclick="openNav()">&#9776;</button>
+        <!--Content-->
+        <center>
+            <h1>Welcome To School Hive!!</h1>
+            <select class="dropdown">
+                <option value="select">Select Your School</option>
+                <option value="one">St. Anthony's Junior College, Agra</option>
+                <option value="three">St. Paul's Church College, Unit - 1</option>
+                <option value="four">St. Paul's Church College, Unit - 2</option>
+                <option value="two">St. Peter's College, Agra</option>
+                <option value="five">Queen Victoria English Medium School</option>
+                <option value="six">St. Conrad's Inter College</option>
+                <option value="seven">St. Mary's Convent School</option>
+            </select>
+            <select class="dropdown">
+                <option value="select">Select Your Class</option>
+                <option value="one">Class 1</option>
+                <option value="two">Class 2</option>
+                <option value="three">Class 3</option>
+                <option value="four">Class 4</option>
+                <option value="five">Class 5</option>
+                <option value="six">Class 6</option>
+                <option value="seven">Class 7</option>
+            </select>
+            <h2 id="heading">Start Chatting</h2>
+            <button type="submit" id="text-btn" onclick="navigateToTexting()">Text</button>
+            <button type="button" id="or_btn">OR</button>
+            <button type="submit" id="video-btn" onclick="navigateToMeet()">Video</button>
+        </center>
+    </body>
+</html>

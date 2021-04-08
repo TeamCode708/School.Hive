@@ -1,0 +1,147 @@
+body {
+    color: white;
+}
+
+.bg-image1 {
+    background-image: url("Pink-Green.png");
+}
+
+.bg-image2 {
+    background-image: url("Peacock Feather Theme.png");
+}
+
+.bg-image3 {
+    background-image: url("Dark-Light\ Blue\ Shades.png");
+}
+
+.bg-image4 {
+    background-image: url("Blue-Brown.png");
+}
+
+.sidepanel {
+    height: 100%; 
+    width: 0; 
+    position: fixed; 
+    z-index: 1; 
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 60px;
+    transition: 0.5s;
+}
+  
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+  
+.sidepanel a:hover {
+    color: #f1f1f1;
+}
+  
+.sidepanel .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+  
+.openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: #111;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+}
+  
+.openbtn:hover {
+    background-color: #444;
+}
+
+.dropdown {
+    width: 125px;
+    height: 30px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: thistle;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+#text-btn {
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: thistle;
+    margin-right: 20px;
+}
+
+#video-btn {
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: thistle;
+    margin-left: 20px;
+}
+
+.login_div {
+    width: 750px;
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    color: black;
+    margin-bottom: 20px;
+}
+
+.container {
+    width: 600px;
+    background: white;
+    padding: 10px;
+    float: none;
+    border-radius: 15px;
+    color: black;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.sign_up_span {
+    margin-bottom: 15px;
+}
+
+#login_button , #sign_up_btn{
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: thistle;
+    margin-right: 15px;
+}
+
+#or_btn {
+    background-color: transparent;
+    color: white;
+}
+
+#hidden_label {
+    visibility: hidden;
+}
+
+#add_room_btn {
+    padding: 5px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color: thistle;
+    margin-right: 15px;
+}
